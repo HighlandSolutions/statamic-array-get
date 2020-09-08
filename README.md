@@ -153,7 +153,8 @@ For example, on [Highland's website][highland-website] we use several different 
     …configure your variants with front-matter!
   </summary>
 
-  ```yaml
+  ```handlebars
+  ---
   navbar_variants:
     # Variants are named by colors used for navbar background, logo text color, 
     # and logo crossbar color, respectively.
@@ -172,9 +173,11 @@ For example, on [Highland's website][highland-website] we use several different 
       navbar_links_class:         text-white hover:text-blue-100
       navbar_last_link_class:     text-white
     # Insert several more variants.
-  ```
+  ---
 
-  ```handlebars
+
+
+
   <nav>
     <header class="{{ array_get:view:navbar_variants key='{navbar_variant}.navbar_header_class' }}">
       <a href="/">
