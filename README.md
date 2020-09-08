@@ -5,7 +5,7 @@ This addon helps you **DRY up your templates** with a tag that makes it trivial 
 
 For the Laravel devs out there, this works very similarly to the [`Arr::get()`][laravel-array-get] (or the old `array_get()`) helper.
 
-[Looking for the docs?](./docs.md)
+[Looking for the docs?](./DOCUMENTATION.md)
 
 
 ## Why?
