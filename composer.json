@@ -1,0 +1,20 @@
+{
+	"name": "highland/statamic-array-get",
+	"description": "Laravel's array_get() / Arr::get() helper for Statamic.",
+    "autoload": {
+        "psr-4": {
+            "Highland\\StatamicArrayGet\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Array Get",
+            "description": "Laravel's array_get() / Arr::get() helper for Statamic."
+        },
+        "laravel": {
+            "providers": [
+                "Highland\\StatamicArrayGet\\ServiceProvider"
+            ]
+        }
+    }
+}
